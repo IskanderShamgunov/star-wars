@@ -1,0 +1,36 @@
+.episode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1280px;
+}
+
+.episode__link {
+  padding: 10px 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.episode__link:hover {
+  background-color: blue;
+  color: black;
+}
+
+.episode__descr {
+  max-width: 60%;
+  margin-bottom: 60px;
+  line-height: 150%;
+}
+
+.episode__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: inside;
+}
+
+.episode__list-item {
+  padding: 0 20px;
+}
